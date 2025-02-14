@@ -1,4 +1,4 @@
-//PShape p; //petal shape
+PShape p; //petal shape
 public void setup() {  
   size(600, 600, P3D);
   strokeWeight(1);

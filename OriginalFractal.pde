@@ -4,12 +4,12 @@ public void setup() {
   strokeWeight(1);
   fill(#FFD8F2);
   stroke(#C40C34);
-  /*p = createShape();
+  p = createShape();
   p.beginShape();
   p.vertex(0, 0, 0);
   p.bezierVertex(50, 10, -50, 50, 0, -100, 0, -30, -150);
   p.bezierVertex(-50, 0, -100, -50, 10, -50, 0, 0, 0);
-  p.endShape();*/
+  p.endShape();
 }
 
 public void draw() {

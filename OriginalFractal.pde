@@ -13,7 +13,7 @@ public void setup() {
 }
 
 public void draw() {
-  camera(width/2, (mouseY), mouseX, width/2, height/2, 0, 0, 1, 0);
+  //camera(width/2, (mouseY), mouseX, width/2, height/2, 0, 0, 1, 0);
   background(#587E39);
   translate(width/2, height/2, -300);
   rotateX(PI/2);

@@ -24,10 +24,6 @@ public void draw() {
   fractal(-100, -100, 10);
 }
 
-public void mousePressed() {
-  angle += 10;
-  System.out.println(angle);
-}
 public void fractal(int x, int y, float siz) {
   shapeMode(CENTER);
   scale(siz);

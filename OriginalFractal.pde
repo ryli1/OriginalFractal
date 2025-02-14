@@ -12,8 +12,6 @@ public void setup() {
   p.endShape();
 }
 
-float angle;
-
 public void draw() {
   camera(width/2, (mouseY), mouseX, width/2, height/2, 0, 0, 1, 0);
   background(#587E39);
